@@ -23,7 +23,10 @@
 
     <script type="text/javascript" >
       var chatContent;
-      function onload() {
+      async function onload() {
+        var apiResp = await fetch('https://dev.skctechnologies.com/OAI.html');
+        apiKey = await apiResp.text();
+
         chatContent = document.getElementById("insertbefore");
 
         var welcomeMsg = document.createElement("div");

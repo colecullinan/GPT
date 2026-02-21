@@ -1,7 +1,8 @@
-function chatGptCompletion(userInput) {
-    // Define your API key
-    const apiKey = 'sk-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'; // Replace with your actual API key
+// Define your API key
+var apiKey = 'sk-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'; // Replace with your actual API key
 
+function chatGptCompletion(userInput) {
+    
     // Define the payload for the API request
     var payload;
 
