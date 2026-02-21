@@ -1,6 +1,6 @@
 function chatGptCompletion(userInput) {
     // Define your API key
-    const apiKey = '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';
+    const apiKey = 'sk-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'; // Replace with your actual API key
 
     // Define the payload for the API request
     var payload;
